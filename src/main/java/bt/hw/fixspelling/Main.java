@@ -1,4 +1,4 @@
-package hostelworld;
+package bt.hw.fixspelling;
 
 public class Main {
 
@@ -7,7 +7,7 @@ public class Main {
 	}
 
 	public static String fixSpelling(String name) {
-		String wordToCheck = new String(name);		
+		String wordToCheck = new String(name);
 		if ("hostleworld".equals(wordToCheck)) {
 			name = "hostelworld";
 		} else {
